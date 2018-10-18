@@ -6,6 +6,8 @@ WPF application for Vital Systems Motenc PCI Card built for 64-bit environment
 ## PLX 64-bit Driver Info
 The included PLX driver is not digitally signed. Contact Vital Systems Inc. for more information
 
+To install PLX driver, unzip Driver.zip and run "PlxSvcCtrl.bat install" in elevated command prompt
+
 <p align="center">
   <img src="/img/MotencDemo.png" width="500"/>
 </p>
