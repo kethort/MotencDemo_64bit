@@ -8,6 +8,8 @@ The included PLX driver is not digitally signed. Contact Vital Systems Inc. for 
 
 To install PLX driver, unzip Driver.zip and run "PlxSvcCtrl.bat install" in elevated command prompt
 
+<i>**This program will not run if a PLX PCI Card is not detected in the computer</i>
+
 <p align="center">
   <img src="/img/MotencDemo.png" width="500"/>
 </p>
