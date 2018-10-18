@@ -12,5 +12,5 @@ The included PLX driver is not digitally signed. Contact Vital Systems Inc. for 
 
 ## Built With
 
-* [Motenc API](http://www.vitalsystem.com/portal/motion/motenc/motenc_100.php)
+* [Vital Systems Motenc API](http://www.vitalsystem.com/portal/motion/motenc/motenc_100.php)
 * [BroadCom PCI/PCIe SDK](https://www.broadcom.com/products/pcie-switches-bridges/software-dev-kit)
