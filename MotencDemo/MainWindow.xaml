@@ -1,0 +1,279 @@
+﻿<Window x:Name="wndwMain" x:Class="MotencDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MotencDemo"
+        mc:Ignorable="d"
+        Title="Motenc Demo" Height="437.281" Width="573.211" Loaded="Window_Loaded" Closing="wndwMain_Closing" ResizeMode="NoResize">
+    <Window.Resources>
+        <Thickness x:Key="ellipseInpMargin">0, 0, 10, 0</Thickness>
+    </Window.Resources>
+    <Grid x:Name="grdMain">
+        <GroupBox x:Name="grpInputs" Header="Inputs" HorizontalAlignment="Left" Height="231" Margin="10,10,0,0" VerticalAlignment="Top" Width="256">
+            <Grid x:Name="grdInputs" HorizontalAlignment="Left" Height="206" VerticalAlignment="Top" Width="247">
+                <StackPanel Orientation="Horizontal"  HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="237">
+                    <StackPanel.Resources>
+                        <Style TargetType="{x:Type Ellipse}">
+                            <Setter Property="Margin" Value="{StaticResource ellipseInpMargin}"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label x:Name="lblInp1" Content="IN1:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="38"/>
+                    <Ellipse x:Name="ledIn1" Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp2" Content="IN2:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="38"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp3" Content="IN3:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="38"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp4" Content="IN4:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="38"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"  HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="237" Margin="0,26,0,0">
+                    <StackPanel.Resources>
+                        <Style TargetType="{x:Type Ellipse}">
+                            <Setter Property="Margin" Value="{StaticResource ellipseInpMargin}"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label x:Name="lblInp5" Content="IN5:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="38"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp6" Content="IN6:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="38"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp7" Content="IN7:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="38"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp8" Content="IN8:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="38"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"  HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="237" Margin="0,52,0,0">
+                    <StackPanel.Resources>
+                        <Style TargetType="{x:Type Ellipse}">
+                            <Setter Property="Margin" Value="{StaticResource ellipseInpMargin}"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label x:Name="lblInp9" Content="IN9:" HorizontalAlignment="Left" VerticalAlignment="Top" Width="38"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp10" Content="IN10:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="38"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp11" Content="IN11:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="38"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp12" Content="IN12:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="38"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"  HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="237" Margin="0,78,0,0">
+                    <StackPanel.Resources>
+                        <Style TargetType="{x:Type Ellipse}">
+                            <Setter Property="Margin" Value="{StaticResource ellipseInpMargin}"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label x:Name="lblInp13" Content="IN13:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="38"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp14" Content="IN14:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="38"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp15" Content="IN15:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="38"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp16" Content="IN16:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="38"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"  HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="237" Margin="0,104,0,0">
+                    <StackPanel.Resources>
+                        <Style TargetType="{x:Type Ellipse}">
+                            <Setter Property="Margin" Value="{StaticResource ellipseInpMargin}"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label x:Name="lblInp17" Content="IN17:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp18" Content="IN18:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp19" Content="IN19:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp20" Content="IN20:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"  HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="237" Margin="0,130,0,0">
+                    <StackPanel.Resources>
+                        <Style TargetType="{x:Type Ellipse}">
+                            <Setter Property="Margin" Value="{StaticResource ellipseInpMargin}"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label x:Name="lblInp21" Content="IN21:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp22" Content="IN22:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp23" Content="IN23:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp24" Content="IN24:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"  HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="237" Margin="0,156,0,0">
+                    <StackPanel.Resources>
+                        <Style TargetType="{x:Type Ellipse}">
+                            <Setter Property="Margin" Value="{StaticResource ellipseInpMargin}"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label x:Name="lblInp25" Content="IN25:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp26" Content="IN26:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp27" Content="IN27:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp28" Content="IN28:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"  HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="237" Margin="0,182,0,-2">
+                    <StackPanel.Resources>
+                        <Style TargetType="{x:Type Ellipse}">
+                            <Setter Property="Margin" Value="{StaticResource ellipseInpMargin}"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label x:Name="lblInp29" Content="IN29:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp30" Content="IN30:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp31" Content="IN31:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                    <Label x:Name="lblInp32" Content="IN32:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="12" Stroke="Black" VerticalAlignment="Center" Width="12" RenderTransformOrigin="0.494,-0.284"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="grpOutputs" Header="Outputs" HorizontalAlignment="Left" Margin="10,246,0,0" VerticalAlignment="Top" Height="131" Width="303">
+            <Grid x:Name="grdOutputs" HorizontalAlignment="Left" Height="108" VerticalAlignment="Top" Width="307">
+                <StackPanel x:Name="stkOut1" Orientation="Horizontal"  HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="301">
+                    <StackPanel.Resources>
+                        <Style TargetType="{x:Type Ellipse}">
+                            <Setter Property="Margin" Value="{StaticResource ellipseInpMargin}"/>
+                            <Setter Property="Height" Value="15"/>
+                            <Setter Property="Width" Value="15"/>
+                            <Setter Property="ToolTip" Value="Click to activate"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label x:Name="lblOut1" Content="OUT1:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="49"/>
+                    <Ellipse x:Name="ledOut0" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut0_MouseDown"/>
+                    <Label x:Name="lblOut2" Content="OUT2:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="49"/>
+                    <Ellipse x:Name="ledOut1" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut1_MouseDown"/>
+                    <Label x:Name="lblOut3" Content="OUT3:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="49"/>
+                    <Ellipse x:Name="ledOut2" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut2_MouseDown"/>
+                    <Label x:Name="lblOut4" Content="OUT4:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="49"/>
+                    <Ellipse x:Name="ledOut3" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut3_MouseDown"/>
+                </StackPanel>
+                <StackPanel x:Name="stkOut2" Orientation="Horizontal"  HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="301" Margin="0,26,0,0">
+                    <StackPanel.Resources>
+                        <Style TargetType="{x:Type Ellipse}">
+                            <Setter Property="Margin" Value="{StaticResource ellipseInpMargin}"/>
+                            <Setter Property="Height" Value="15"/>
+                            <Setter Property="Width" Value="15"/>
+                            <Setter Property="ToolTip" Value="Click to activate"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label x:Name="lblOut5" Content="OUT5:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="49"/>
+                    <Ellipse x:Name="ledOut4" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut4_MouseDown"/>
+                    <Label x:Name="lblOut6" Content="OUT6:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="49"/>
+                    <Ellipse x:Name="ledOut5" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut5_MouseDown"/>
+                    <Label x:Name="lblOut7" Content="OUT7:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="49"/>
+                    <Ellipse x:Name="ledOut6" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut6_MouseDown"/>
+                    <Label x:Name="lblOut8" Content="OUT8:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="49"/>
+                    <Ellipse x:Name="ledOut7" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut7_MouseDown"/>
+                </StackPanel>
+                <StackPanel x:Name="stkOut3" Orientation="Horizontal"  HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="301" Margin="0,52,0,0">
+                    <StackPanel.Resources>
+                        <Style TargetType="{x:Type Ellipse}">
+                            <Setter Property="Margin" Value="{StaticResource ellipseInpMargin}"/>
+                            <Setter Property="Height" Value="15"/>
+                            <Setter Property="Width" Value="15"/>
+                            <Setter Property="ToolTip" Value="Click to activate"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label x:Name="lblOut9" Content="OUT9:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="49"/>
+                    <Ellipse x:Name="ledOut8" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut8_MouseDown"/>
+                    <Label x:Name="lblOut10" Content="OUT10:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse x:Name="ledOut9" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut9_MouseDown"/>
+                    <Label x:Name="lblOut11" Content="OUT11:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse x:Name="ledOut10" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut10_MouseDown"/>
+                    <Label x:Name="lblOut12" Content="OUT12:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse x:Name="ledOut11" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut11_MouseDown"/>
+                </StackPanel>
+                <StackPanel x:Name="stkOut4" Orientation="Horizontal"  HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="301" Margin="0,78,0,0">
+                    <StackPanel.Resources>
+                        <Style TargetType="{x:Type Ellipse}">
+                            <Setter Property="Margin" Value="{StaticResource ellipseInpMargin}"/>
+                            <Setter Property="Height" Value="15"/>
+                            <Setter Property="Width" Value="15"/>
+                            <Setter Property="ToolTip" Value="Click to activate"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label x:Name="lblOut13" Content="OUT13:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse x:Name="ledOut12" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut12_MouseDown"/>
+                    <Label x:Name="lblOut14" Content="OUT14:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse x:Name="ledOut13" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut13_MouseDown"/>
+                    <Label x:Name="lblOut15" Content="OUT15:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse x:Name="ledOut14" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut14_MouseDown"/>
+                    <Label x:Name="lblOut16" Content="OUT16:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Ellipse x:Name="ledOut15" Fill="#FFF4F4F5" HorizontalAlignment="Right" Stroke="Black" VerticalAlignment="Center" RenderTransformOrigin="0.494,-0.284" MouseDown="ledOut15_MouseDown"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="gprEncoders" Header="Encoders" HorizontalAlignment="Left" Margin="271,10,0,0" VerticalAlignment="Top" Height="201" Width="121">
+            <Grid Margin="0,10,-2,0" Height="176" VerticalAlignment="Top">
+                <TextBox x:Name="txtEnc1" HorizontalAlignment="Left" Height="23" Margin="24,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77" IsReadOnly="True" MouseDoubleClick="txtEnc1_MouseDoubleClick"/>
+                <TextBox x:Name="txtEnc2" HorizontalAlignment="Left" Height="23" Margin="24,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77" IsReadOnly="True" MouseDoubleClick="txtEnc2_MouseDoubleClick"/>
+                <TextBox x:Name="txtEnc3" HorizontalAlignment="Left" Height="23" Margin="24,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77" IsReadOnly="True" MouseDoubleClick="txtEnc3_MouseDoubleClick"/>
+                <TextBox x:Name="txtEnc4" HorizontalAlignment="Left" Height="23" Margin="24,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77" IsReadOnly="True" MouseDoubleClick="txtEnc4_MouseDoubleClick"/>
+                <Button x:Name="btnRstAllEncs" Content="Reset All
+" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" Width="96" Click="btnRstAllEncs_Click"/>
+                <Label x:Name="lblEnc1" Content="1:" HorizontalAlignment="Left" Margin="0,8,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.19,0.552"/>
+                <Label x:Name="lblEnc2" Content="2:" HorizontalAlignment="Left" Margin="0,36,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.231,0.475"/>
+                <Label x:Name="lblEnc3" Content="3:" HorizontalAlignment="Left" Margin="0,64,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.231,0.475"/>
+                <Label x:Name="lblEnc4" Content="4:" HorizontalAlignment="Left" Margin="0,92,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.231,0.475"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="grpRegisters" Header="Registers
+                  " HorizontalAlignment="Left" Margin="397,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.07,-0.904" Height="201" Width="151">
+            <Grid HorizontalAlignment="Left" Height="183" Margin="0,0,-2,0" VerticalAlignment="Top" Width="141">
+                <TextBox x:Name="txtReg0" HorizontalAlignment="Left" Height="23" Margin="58,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="73" IsReadOnly="True"/>
+                <TextBox x:Name="txtReg1" HorizontalAlignment="Left" Height="23" Margin="58,39,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="73" IsReadOnly="True"/>
+                <TextBox x:Name="txtReg2" HorizontalAlignment="Left" Height="23" Margin="58,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="73" IsReadOnly="True"/>
+                <TextBox x:Name="txtReg3" HorizontalAlignment="Left" Height="23" Margin="58,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="73" IsReadOnly="True"/>
+                <TextBox x:Name="txtReg4" HorizontalAlignment="Left" Height="23" Margin="58,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="73" IsReadOnly="True"/>
+                <TextBox x:Name="txtReg5" HorizontalAlignment="Left" Height="23" Margin="58,154,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="73" IsReadOnly="True"/>
+                <ComboBox x:Name="cboRegs1" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Width="53" SelectedIndex="0"/>
+                <ComboBox x:Name="cboRegs2" HorizontalAlignment="Left" Margin="0,39,0,0" VerticalAlignment="Top" Width="53" SelectedIndex="1"/>
+                <ComboBox x:Name="cboRegs3" HorizontalAlignment="Left" Margin="0,66,0,0" VerticalAlignment="Top" Width="53" SelectedIndex="2"/>
+                <ComboBox x:Name="cboRegs4" HorizontalAlignment="Left" Margin="0,95,0,0" VerticalAlignment="Top" Width="53" SelectedIndex="3"/>
+                <ComboBox x:Name="cboRegs5" HorizontalAlignment="Left" Margin="0,124,0,0" VerticalAlignment="Top" Width="53" SelectedIndex="4"/>
+                <ComboBox x:Name="cboRegs6" HorizontalAlignment="Left" Margin="0,154,0,0" VerticalAlignment="Top" Width="53" SelectedIndex="5"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="grpDAC" Header="DAC" HorizontalAlignment="Left" Height="150" Margin="318,227,0,0" VerticalAlignment="Top" Width="114">
+            <Grid HorizontalAlignment="Left" Height="139" Margin="0,-10,-6,-1" VerticalAlignment="Top" Width="108">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="23*"/>
+                </Grid.ColumnDefinitions>
+                <ComboBox x:Name="cboDACChannels" HorizontalAlignment="Left" Margin="43,34,0,0" VerticalAlignment="Top" Width="41" SelectedIndex="0" Grid.Column="1">
+                    <ComboBoxItem Content="0"/>
+                    <ComboBoxItem Content="1"/>
+                    <ComboBoxItem Content="2"/>
+                    <ComboBoxItem Content="3"/>
+                    <ComboBoxItem Content="4"/>
+                    <ComboBoxItem Content="5"/>
+                    <ComboBoxItem Content="6"/>
+                    <ComboBoxItem Content="7"/>
+                </ComboBox>
+                <Label x:Name="lblDACChannel" Content="Channel:" HorizontalAlignment="Left" Margin="3,32,0,0" VerticalAlignment="Top" Width="51" FontSize="11" Grid.ColumnSpan="2"/>
+                <Button x:Name="btnDACNeg" Content="-" HorizontalAlignment="Left" Margin="6,74,0,0" VerticalAlignment="Top" Width="42" PreviewMouseDown="btnDACNeg_PreviewMouseDown" PreviewMouseUp="btnDACNeg_PreviewMouseUp" Grid.ColumnSpan="2" Height="39"/>
+                <Button x:Name="btnDACPlus" Content="+" HorizontalAlignment="Left" Margin="43,74,0,0" VerticalAlignment="Top" Width="42" PreviewMouseDown="btnDACPlus_PreviewMouseDown" PreviewMouseUp="btnDACPlus_PreviewMouseUp" Grid.Column="1" Height="39"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="grpADC" Header="ADC" HorizontalAlignment="Left" Margin="437,216,0,0" VerticalAlignment="Top" Height="161" Width="113">
+            <Grid HorizontalAlignment="Left" Height="152" Margin="0,-9,-2,0" VerticalAlignment="Top" Width="103">
+                <TextBox x:Name="txtReadADC0" HorizontalAlignment="Left" Height="23" Margin="10,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"/>
+                <TextBox x:Name="txtReadADC1" HorizontalAlignment="Left" Height="23" Margin="10,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"/>
+                <TextBox x:Name="txtReadADC2" HorizontalAlignment="Left" Height="23" Margin="10,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84"/>
+                <Label x:Name="lblADCBank" Content="Bank:" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="11"/>
+                <TextBox x:Name="txtReadADC3" HorizontalAlignment="Left" Height="23" Margin="10,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84"/>
+                <ComboBox x:Name="cboADCBank" HorizontalAlignment="Left" Margin="41,11,0,0" VerticalAlignment="Top" Width="52" SelectedIndex="0">
+                    <ComboBoxItem Content="0"/>
+                    <ComboBoxItem Content="1"/>
+                </ComboBox>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>
