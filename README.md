@@ -16,5 +16,5 @@ To install PLX driver, unzip Driver.zip and run "PlxSvcCtrl.bat install" in elev
 
 ## Built With
 
-* [Vital Systems Motenc API](http://www.vitalsystem.com/portal/motion/motenc/motenc_100.php)
+* [Vital Systems Motenc API](https://www.vitalsystem.com/motion/SDK/motion_control_api.php)
 * [BroadCom PCI/PCIe SDK](https://www.broadcom.com/products/pcie-switches-bridges/software-dev-kit)
